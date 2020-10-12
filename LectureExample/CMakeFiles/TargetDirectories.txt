@@ -1,0 +1,7 @@
+/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/LectureExample/CMakeFiles/rebuild_cache.dir
+/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/LectureExample/CMakeFiles/edit_cache.dir
+/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/LectureExample/CMakeFiles/test.dir
+/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/LectureExample/CMakeFiles/sum.dir
+/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/LectureExample/CMakeFiles/round.dir
+/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/LectureExample/CMakeFiles/testpow.dir
+/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/LectureExample/CMakeFiles/hello.dir

@@ -1,0 +1,1 @@
+/usr/local/bin/gcc-10 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/code1_alt.dir/code1_alt.c.o -o code1_alt 
