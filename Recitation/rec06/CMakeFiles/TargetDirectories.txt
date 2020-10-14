@@ -1,3 +1,0 @@
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/CMakeFiles/rebuild_cache.dir
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/CMakeFiles/edit_cache.dir
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/CMakeFiles/bigOrLittleEndian.dir

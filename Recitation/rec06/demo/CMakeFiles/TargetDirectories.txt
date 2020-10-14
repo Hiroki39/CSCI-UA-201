@@ -1,7 +1,0 @@
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/demo/CMakeFiles/rebuild_cache.dir
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/demo/CMakeFiles/hello.dir
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/demo/CMakeFiles/pow.dir
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/demo/CMakeFiles/edit_cache.dir
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/demo/CMakeFiles/numbers.dir
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/demo/CMakeFiles/show-bytes.dir
-/Users/zhenghongyi/Documents/OneDrive/NYU/Academic Resources/Fall 2020/CSCI-UA 201/Recitation/rec06/demo/CMakeFiles/mainfunction.dir
