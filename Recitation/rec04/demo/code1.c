@@ -7,5 +7,5 @@ int main() {
         x *= 2.0f;
     }
 
-    return 1;
+    return 0;
 }
