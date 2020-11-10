@@ -1,0 +1,10 @@
+1. (a) movl $65, %esi
+  	   movl $97, %edi
+   (b) movl $65, %esi
+	   movl $97, %edi
+   (c) movl $65, %esi
+	   movl $97, %edi
+   (d) The register size is 4 byte in each case.
+   (e) The values stored are same in all cases.
+
+2. function1 is max_int, function2 is max_long, and function3 is max_char

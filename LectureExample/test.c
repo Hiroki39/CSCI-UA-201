@@ -1,8 +1,13 @@
 #include <float.h>
 #include <stdio.h>
 
-int main() {
-    int x = 0x7FFFFFFF;
-    int x_plus_one = x + 1;
-    printf("%i\n", x_plus_one + x_plus_one);
+long pcount_do(unsigned long x) {
+    long result = 0;
+    do {
+        result += x & 0x1;
+        x >>= 1;
+    } while (x);
+    return result;
 }
+
+int main() { pcount_do(100u); }
