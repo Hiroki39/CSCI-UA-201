@@ -56,9 +56,9 @@ LCFI0:
 	leaq	lC1(%rip), %rdi
 	movl	$0, %eax
 	call	_printf
-	movl	$65, %esi
-	movl	$97, %edi
-	call	_max_long
+	movl	$65, %esi ; Instructions that Instructions that move or generate 
+	movl	$97, %edi ; 32-bit register values also set the upper 32 bits of 
+	call	_max_long ; the register to zero.
 	movq	%rax, %rsi
 	leaq	lC2(%rip), %rdi
 	movl	$0, %eax

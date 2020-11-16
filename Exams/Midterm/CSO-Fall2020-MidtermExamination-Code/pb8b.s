@@ -1,19 +1,10 @@
 	.text
-	.globl _test
-_test:
+	.globl _scale
+_scale:
 LFB1:
-	cmpq	%rsi, %rdi
-	jg	L5
-	cmpq	%rdx, %rsi
-	jg	L6
-	leaq	(%rdi,%rdi,2), %rsi
-	leaq	0(,%rsi,4), %rax
-	ret
-L5:
-	leaq	(%rsi,%rsi), %rax
-	ret
-L6:
-	leaq	(%rdx,%rdx,2), %rax
+	leaq	4(%rdx,%rdx,2), %rax
+	addq	%rsi, %rdi
+	leaq	3(%rdi,%rax,4), %rax
 	ret
 LFE1:
 	.section __TEXT,__eh_frame,coalesced,no_toc+strip_static_syms+live_support

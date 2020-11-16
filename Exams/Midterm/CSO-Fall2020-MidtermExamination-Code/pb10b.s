@@ -1,21 +1,15 @@
 	.text
-	.globl _test
-_test:
-LFB1:
-	cmpq	%rsi, %rdi
-	jg	L5
-	cmpq	%rdx, %rsi
-	jg	L6
-	leaq	(%rdi,%rdi,2), %rsi
-	leaq	0(,%rsi,4), %rax
+	.globl _foo
+_foo:
+LFB0:
+	cmpq	$234, %rdi ; set flags based on b - a, not a - b !!!
+	jle	L1
+	cmpq	$578, (%rsi)
+	jg	L1
+	movq	$701, (%rsi)
+L1:
 	ret
-L5:
-	leaq	(%rsi,%rsi), %rax
-	ret
-L6:
-	leaq	(%rdx,%rdx,2), %rax
-	ret
-LFE1:
+LFE0:
 	.section __TEXT,__eh_frame,coalesced,no_toc+strip_static_syms+live_support
 EH_frame1:
 	.set L$set$0,LECIE1-LSCIE1
@@ -41,8 +35,8 @@ LSFDE1:
 	.long L$set$1
 LASFDE1:
 	.long	LASFDE1-EH_frame1
-	.quad	LFB1-.
-	.set L$set$2,LFE1-LFB1
+	.quad	LFB0-.
+	.set L$set$2,LFE0-LFB0
 	.quad L$set$2
 	.byte	0
 	.align 3
